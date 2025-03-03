@@ -28,7 +28,7 @@
          <div class="flex gap-4 items-center">
             <div class="bg-gray-100 rounded-xl flex justify-around gap-3 items-center">
             <img class="w-6 pl-2" src="assets/checkbox.png" alt="">
-            <span class="text-xl font-bold pr-2">23</span>
+            <span id="upNumber" class="text-xl font-bold pr-2">23</span>
             </div>
             <div>
                 <img id="bg-btn" class="w-6" src="assets/theme-btn.png" alt="">
@@ -44,7 +44,9 @@
                         </div>
                         <div class="flex flex-col">
                             <span class="text-sm text-gray-700  font-medium ">Task Assigned</span>
-                        <span class="xl:font-bold px-2 py-1 text-xl">05</span>
+                        <span id="taskNumber" class="xl:font-bold px-2 py-1 text-xl">6
+
+                        </span>
                         </div>
                     </div>
                     <div id="discover" class="flex  rounded-md xl:col-span-2 lg:col-span-2 items-center pl-5 pb-3 pt-4 pr-18 bg-gradient-to-r from-[#3752FD] via-[#6C7FFA] to-[#9BA8F8]">
@@ -59,88 +61,88 @@
                             <img class=" p-3" src="assets/calender.png" alt="">
                         </div>
                         <div class="flex flex-col">
-                            <span class="text-sm text-[#00303C] font-medium ">Wed,</span>
-                        <span class="xl:font-bold px-2 py-1 text-md">Jul 28 2025</span>
+                            <span class="text-sm text-[#00303C] font-medium "></span>
+                        <span id="dynamic-date" class="xl:font-bold px-2 py-1 text-md">Jul 28 2025</span>
                         </div>
                     </div>
                 </div>
                 <div class="grid grid-cols-3 gap-4">
-                    <div class="bg-gray-100 rounded-lg p-4">
-                       <div class="rounded-md mb-4 bg-white w-5/12 px-2"> <h3 class="text-sm text-gray-700 font-medium  ">ShopEase</h3></div>
-                        <p class="text-lg font-medium">Fix Mobile Button Issue</p>
+                    <div  class="bg-gray-100 rounded-lg p-4">
+                       <div  class="rounded-md mb-4 bg-white w-5/12 px-2"> <h3 class="text-sm text-gray-700 font-medium  ">ShopEase</h3></div>
+                        <p id="para1" class="text-lg font-medium">Fix Mobile Button Issue</p>
                         
                        <div class="bg-white rounded-md p-2 mt-2 ">
                         <p class="text-xs text-gray-500 ">Debug using Chrome DevTools, check for overlapping...</p>
                        </div>
 
-                        <div class="flex gap-4 mt-3 items-center">
+                        <div class="flex justify-between gap-4 mt-3 items-center">
                             <p><span class="text-xs text-gray-500">Deadline</span> <br><span class="text-sm font-medium">21 March 2025</span></p>
-                        <button class="bg-blue-500 text-white rounded-lg text-sm px-3 py-2 mt-4">Completed</button>
+                        <button id="card1" class="bg-[#3752FD] text-white rounded-lg  text-sm px-3 py-2 mt-4">Completed</button>
                         </div>
                     </div>
                     <div class="bg-gray-100 rounded-lg p-4">
-                       <div class="rounded-md mb-4 bg-white w-5/12 px-2"> <h3 class="text-sm text-gray-700 font-medium   ">CloudSync</h3></div>
-                        <p class="text-lg font-medium">Add Dark Mode</p>
+                       <div class="rounded-md mb-4 bg-white w-5/12 px-2"> <h3 class="text-sm text-gray-700 font-medium  ">CloudSync</h3></div>
+                        <p id="para2" class="text-lg font-medium">Add Dark Mode</p>
                         
                        <div class="bg-white rounded-md p-2 mt-2 ">
                         <p class="text-xs text-gray-500 ">Store the user's preference in localStorage,update CSS...</p>
                        </div>
 
-                        <div class="flex gap-4 mt-3 items-center">
+                        <div class="flex justify-between gap-4 mt-3 items-center">
                             <p><span class="text-xs text-gray-500">Deadline</span> <br><span class="text-sm font-medium">21 March 2025</span></p>
-                        <button class="bg-blue-500 text-white rounded-lg text-sm px-3 py-2 mt-4">Completed</button>
+                        <button id="card2" class="bg-[#3752FD] text-white rounded-lg text-sm px-3 py-2 mt-4">Completed</button>
                         </div>
                     </div>
                     <div class="bg-gray-100 rounded-lg p-4">
                        <div class="rounded-md mb-4 bg-white w-4/12 px-2"> <h3 class="text-sm text-gray-700 font-medium   ">SwiftPay</h3></div>
-                        <p class="text-lg font-medium">Optimize Home page</p>
+                        <p id="para3" class="text-lg font-medium">Optimize Home page</p>
                         
                        <div class="bg-white rounded-md p-2 mt-2 ">
                         <p class="text-xs text-gray-500 ">Debug using Chrome DevTools, check for overlapping...</p>
                        </div>
 
-                        <div class="flex gap-4 mt-3 items-center">
+                        <div class="flex justify-between gap-4 mt-3 items-center">
                             <p><span class="text-xs text-gray-500">Deadline</span> <br><span class="text-sm font-medium">21 March 2025</span></p>
-                        <button class="bg-blue-500 text-white rounded-lg text-sm px-3 py-2 mt-4">Completed</button>
+                        <button id="card3" class="bg-[#3752FD] text-white rounded-lg text-sm px-3 py-2 mt-4">Completed</button>
                         </div>
                     </div>
                     <div class="bg-gray-100 rounded-lg p-4">
-                       <div class="rounded-md mb-4 bg-white w-3/12 px-2"> <h3 class="text-sm text-gray-700 font-medium   ">Meta</h3></div>
-                        <p class="text-lg font-medium">Add new emoji 🤲</p>
+                       <div class="rounded-md mb-4 bg-white w-3/12 px-2"> <h3 class="text-sm text-gray-700 font-medium">Meta</h3></div>
+                        <p id="para4" class="text-lg font-medium">Add new emoji 🤲</p>
+                        
+                       <div class="bg-white rounded-md p-2 mt-2 ">
+                        <p  class="text-xs text-gray-500 ">Debug using Chrome DevTools, check for overlapping...</p>
+                       </div>
+
+                        <div class="flex justify-between gap-4 mt-3 items-center">
+                            <p><span class="text-xs text-gray-500">Deadline</span> <br><span class="text-sm font-medium">21 March 2025</span></p>
+                        <button id="card4" class="bg-[#3752FD] text-white rounded-lg text-sm px-3 py-2 mt-4">Completed</button>
+                        </div>
+                    </div>
+                    <div class="bg-gray-100 rounded-lg p-4">
+                       <div class="rounded-md mb-4 bg-white w-5/12 px-2"> <h3 class="text-sm text-gray-700 font-medium  ">ShopEase</h3></div>
+                        <p id="para5" class="text-lg font-medium">Integrate Open AI API </p>
                         
                        <div class="bg-white rounded-md p-2 mt-2 ">
                         <p class="text-xs text-gray-500 ">Debug using Chrome DevTools, check for overlapping...</p>
                        </div>
 
-                        <div class="flex gap-4 mt-3 items-center">
+                        <div class="flex justify-between gap-4 mt-3 items-center">
                             <p><span class="text-xs text-gray-500">Deadline</span> <br><span class="text-sm font-medium">21 March 2025</span></p>
-                        <button class="bg-blue-500 text-white rounded-lg text-sm px-3 py-2 mt-4">Completed</button>
+                        <button id="card5" class="bg-[#3752FD] text-white rounded-lg text-sm px-3 py-2 mt-4">Completed</button>
                         </div>
                     </div>
                     <div class="bg-gray-100 rounded-lg p-4">
                        <div class="rounded-md mb-4 bg-white w-5/12 px-2"> <h3 class="text-sm text-gray-700 font-medium   ">ShopEase</h3></div>
-                        <p class="text-lg font-medium">Fix Mobile Button Issue</p>
+                        <p id="para6" class="text-lg font-medium">Improve Job searching</p>
                         
                        <div class="bg-white rounded-md p-2 mt-2 ">
                         <p class="text-xs text-gray-500 ">Debug using Chrome DevTools, check for overlapping...</p>
                        </div>
 
-                        <div class="flex gap-4 mt-3 items-center">
+                        <div class="flex justify-between gap-4 mt-3 items-center">
                             <p><span class="text-xs text-gray-500">Deadline</span> <br><span class="text-sm font-medium">21 March 2025</span></p>
-                        <button class="bg-blue-500 text-white rounded-lg text-sm px-3 py-2 mt-4">Completed</button>
-                        </div>
-                    </div>
-                    <div class="bg-gray-100 rounded-lg p-4">
-                       <div class="rounded-md mb-4 bg-white w-5/12 px-2"> <h3 class="text-sm text-gray-700 font-medium   ">ShopEase</h3></div>
-                        <p class="text-lg font-medium">Fix Mobile Button Issue</p>
-                        
-                       <div class="bg-white rounded-md p-2 mt-2 ">
-                        <p class="text-xs text-gray-500 ">Debug using Chrome DevTools, check for overlapping...</p>
-                       </div>
-
-                        <div class="flex gap-4 mt-3 items-center">
-                            <p><span class="text-xs text-gray-500">Deadline</span> <br><span class="text-sm font-medium">21 March 2025</span></p>
-                        <button class="bg-blue-500 text-white rounded-lg text-sm px-3 py-2 mt-4">Completed</button>
+                        <button id="card6" class="bg-[#3752FD] text-white rounded-lg text-sm px-3 py-2 mt-4">Completed</button>
                         </div>
                     </div>
                     
@@ -148,11 +150,11 @@
             </section>
 
             <section class="bg-white rounded-lg lg:col-span-1 xl:col-span-1 shadow p-6">
-                <div class="flex flex-col justify-between items-center mb-4">
-                    <div class="flex justify-between gap-3">
+                <div class="flex flex-col justify-between items-center border-b border-dotted border-gray-400 pb-3 mb-4">
+                    <div class="flex  justify-between gap-3">
                         <img class="" src="assets/activity.png" alt="">
                         <h2 class="text-xl font-semibold">Activity Log</h2></div>
-                    <button class="bg-blue-500 text-white rounded-lg text-sm px-3 py-2 mt-4">Clear History</button>
+                    <button id="clear-btn" class="btn hover:bg-green-500 bg-[#3752FD] text-white rounded-lg text-sm px-3 py-2 mt-4">Clear History</button>
                 </div>
                 <div id="newP">
                     
@@ -161,5 +163,8 @@
     </main>
     <script src="js/bg.js"></script>
     <script src="js/blog.js"></script>
+    <script src="js/complete.js"></script>
+    <script src="js/clear.js"></script>
+    <script src="js/dynamicdate.js"></script>
 </body>
 </html>
